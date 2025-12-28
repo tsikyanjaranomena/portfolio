@@ -104,7 +104,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-black">
+    <section id="contact" className="py-20 snap-section section-panel">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4 luxe-title">
@@ -156,7 +156,7 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.url}
-                    className={`text-slate-300 ${social.color} transition-colors p-3 bg-black/60 rounded-full border border-gold/30 hover:border-gold`}
+                    className={`text-slate-300 ${social.color} transition-colors p-3 chip-panel rounded-full hover:border-gold`}
                     title={social.name}
                   >
                     {social.icon}
@@ -165,7 +165,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <Card className="marble-card text-slate-900">
+            <Card className="marble-card text-white">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3 luxe-heading">
                   Disponible pour collaborer ?
@@ -176,7 +176,7 @@ const Contact = () => {
                   parlons-en.
                 </p>
                 <Button
-                  className="bg-[#d4af37] hover:bg-[#e8c45a] text-black"
+                  className="cta-aurora"
                   onClick={() => window.location.href = 'mailto:tsikyanjaranomena@gmail.com'}
                 >
                   <Mail className="mr-2" size={16} />
@@ -187,10 +187,10 @@ const Contact = () => {
           </div>
 
           <div>
-            <Card className="marble-card text-slate-900">
+            <Card className="marble-card text-white">
               <CardHeader>
                 <CardTitle className="text-2xl text-white flex items-center gap-2 luxe-heading">
-                  <Send className="text-[#d4af37]" size={24} />
+                  <Send className="text-gold" size={24} />
                   Parlons de votre projet
                 </CardTitle>
               </CardHeader>
@@ -208,7 +208,7 @@ const Contact = () => {
                         value={formData.from_name}
                         onChange={handleInputChange}
                         required
-                        className="bg-white border-slate-200 text-black focus:border-[#d4af37]"
+                        className="bg-black/60 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-200/60 focus:ring-1 focus:ring-sky-200/20"
                         placeholder="Votre nom complet"
                       />
                     </div>
@@ -222,7 +222,7 @@ const Contact = () => {
                         value={formData.from_email}
                         onChange={handleInputChange}
                         required
-                        className="bg-white border-slate-200 text-black focus:border-[#d4af37]"
+                        className="bg-black/60 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-200/60 focus:ring-1 focus:ring-sky-200/20"
                         placeholder="votre.email@exemple.com"
                       />
                     </div>
@@ -238,7 +238,7 @@ const Contact = () => {
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
-                      className="bg-white border-slate-200 text-black focus:border-[#d4af37]"
+                      className="bg-black/60 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-200/60 focus:ring-1 focus:ring-sky-200/20"
                       placeholder="Sujet de votre message"
                     />
                   </div>
@@ -253,14 +253,14 @@ const Contact = () => {
                       onChange={handleInputChange}
                       required
                       rows={6}
-                      className="bg-white border-slate-200 text-black focus:border-[#d4af37] resize-none"
+                      className="bg-black/60 border-white/10 text-white placeholder:text-slate-400 focus:border-sky-200/60 focus:ring-1 focus:ring-sky-200/20 resize-none"
                       placeholder="Décrivez votre projet ou votre demande..."
                     />
                   </div>
 
                   <Button
                     type="submit"
-                    className="w-full bg-[#d4af37] hover:bg-[#e8c45a] text-black py-3"
+                    className="w-full cta-aurora py-3"
                     disabled={isSubmitting}
                   >
                     <Send className="mr-2" size={16} />

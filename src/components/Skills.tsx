@@ -43,7 +43,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-black">
+    <section id="skills" className="py-20 snap-section section-panel">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4 luxe-title">
@@ -80,7 +80,7 @@ const Skills = () => {
                     <Badge
                       key={skillIndex}
                       variant="secondary"
-                      className="bg-black/50 text-slate-200 border border-gold/30"
+                      className="chip-panel text-slate-200"
                     >
                       {skill}
                     </Badge>
@@ -99,13 +99,13 @@ const Skills = () => {
               </h3>
               <div className="flex justify-center space-x-8">
                 <div className="text-center">
-                  <Badge className="bg-[#d4af37] text-black mb-2">
+                  <Badge className="badge-accent mb-2">
                     Français
                   </Badge>
                   <p className="text-slate-300 text-sm">Courant</p>
                 </div>
                 <div className="text-center">
-                  <Badge className="bg-[#d4af37] text-black mb-2">
+                  <Badge className="badge-accent mb-2">
                     Anglais
                   </Badge>
                   <p className="text-slate-300 text-sm">Intermédiaire</p>

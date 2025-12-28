@@ -70,7 +70,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-black">
+    <section id="education" className="py-20 snap-section section-panel">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4 luxe-title">
@@ -106,7 +106,7 @@ const Education = () => {
                       </div>
                       <Badge
                         variant={edu.status === 'En cours' ? 'default' : 'secondary'}
-                        className={edu.status === 'En cours' ? 'bg-[#d4af37] text-black' : 'bg-black text-gold border border-gold/40'}
+                        className={edu.status === 'En cours' ? 'badge-accent' : 'badge-outline'}
                       >
                         {edu.status}
                       </Badge>
@@ -133,7 +133,7 @@ const Education = () => {
                       <h5 className="text-white font-semibold mb-2">Compétences acquises :</h5>
                       {edu.highlights.map((highlight, hIndex) => (
                         <div key={hIndex} className="flex items-start gap-2">
-                          <div className="w-2 h-2 bg-[#d4af37] rounded-full mt-2 flex-shrink-0"></div>
+                          <div className="w-2 h-2 accent-orb rounded-full mt-2 flex-shrink-0"></div>
                           <p className="text-slate-300 text-sm">
                             {highlight}
                           </p>
@@ -159,7 +159,7 @@ const Education = () => {
                   className="luxe-card text-white"
                 >
                   <CardContent className="p-6 text-center">
-                    <div className="w-12 h-12 bg-[#d4af37] rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-12 h-12 accent-orb rounded-full flex items-center justify-center mx-auto mb-4">
                       <Award className="text-black" size={24} />
                     </div>
                     <h4 className="font-semibold mb-2">
@@ -169,10 +169,10 @@ const Education = () => {
                       {cert.issuer}
                     </p>
                     <div className="flex justify-center gap-2">
-                      <Badge variant="outline" className="border-gold text-gold">
+                      <Badge variant="outline" className="badge-outline">
                         {cert.year}
                       </Badge>
-                      <Badge className="bg-black/50 text-slate-200 border border-gold/30">
+                      <Badge className="chip-panel text-slate-200">
                         {cert.type}
                       </Badge>
                     </div>
@@ -183,7 +183,7 @@ const Education = () => {
           </div>
 
           <div className="mt-16">
-            <Card className="marble-card text-slate-900">
+            <Card className="marble-card text-white">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-semibold mb-4 luxe-heading">
                   Développement Continu des Compétences

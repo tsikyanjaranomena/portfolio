@@ -24,23 +24,23 @@ const ThreeRings = () => {
     renderer.domElement.style.mixBlendMode = 'screen';
     container.appendChild(renderer.domElement);
 
-    const ambientLight = new THREE.AmbientLight(0xf6e7b2, 0.6);
+    const ambientLight = new THREE.AmbientLight(0xcfe7ff, 0.45);
     scene.add(ambientLight);
 
-    const keyLight = new THREE.PointLight(0xffe28a, 1.6, 220);
+    const keyLight = new THREE.PointLight(0xf0d18a, 1.4, 220);
     keyLight.position.set(30, 20, 40);
     scene.add(keyLight);
 
-    const rimLight = new THREE.PointLight(0xf6e7b2, 1.2, 220);
+    const rimLight = new THREE.PointLight(0x8ecbff, 1.1, 220);
     rimLight.position.set(-40, -20, 30);
     scene.add(rimLight);
 
     const material = new THREE.MeshStandardMaterial({
-      color: new THREE.Color('#ffd35c'),
+      color: new THREE.Color('#f0d18a'),
       metalness: 0.95,
       roughness: 0.1,
-      emissive: new THREE.Color('#d4af37'),
-      emissiveIntensity: 0.55
+      emissive: new THREE.Color('#7fbff0'),
+      emissiveIntensity: 0.35
     });
 
     const ring1 = new THREE.Mesh(new THREE.TorusGeometry(24, 0.7, 20, 260), material);

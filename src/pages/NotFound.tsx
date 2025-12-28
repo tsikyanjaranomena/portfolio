@@ -13,7 +13,7 @@ export default function NotFoundPage() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button asChild className="bg-[#d4af37] text-black hover:bg-[#e8c45a]">
+          <Button asChild className="cta-aurora">
             <a href="/">Retour à l'accueil</a>
           </Button>
           <Button variant="outline" className="border-gold text-white hover:bg-white/5" onClick={() => window.history.back()}>

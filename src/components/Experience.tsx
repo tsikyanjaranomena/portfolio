@@ -65,7 +65,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-20 bg-black relative"
+      className="py-20 snap-section section-panel relative"
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
@@ -115,7 +115,7 @@ const Experience = () => {
 
               <CardContent className="space-y-6">
                 {exp.projects.map((project, projectIndex) => (
-                  <div key={projectIndex} className="border-l-4 border-[#d4af37] pl-6">
+                  <div key={projectIndex} className="border-l-4 border-gold pl-6">
                     <h4 className="text-lg font-semibold text-white mb-3">
                       {project.name}
                     </h4>
@@ -126,7 +126,7 @@ const Experience = () => {
                     <div className="space-y-2 mb-4">
                       {project.achievements.map((achievement, achIndex) => (
                         <div key={achIndex} className="flex items-start gap-2">
-                          <div className="w-2 h-2 bg-[#d4af37] rounded-full mt-2 flex-shrink-0"></div>
+                          <div className="w-2 h-2 accent-orb rounded-full mt-2 flex-shrink-0"></div>
                           <p className="text-slate-300 text-sm leading-relaxed">
                             {achievement}
                           </p>
@@ -138,7 +138,7 @@ const Experience = () => {
                       {project.technologies.map((tech, techIndex) => (
                         <Badge
                           key={techIndex}
-                          className="bg-black/50 text-slate-200 border border-gold/30"
+                          className="chip-panel text-slate-200"
                         >
                           {tech}
                         </Badge>
