@@ -4,8 +4,8 @@ import path from 'path';
 import { viteSourceLocator } from '@metagptx/vite-plugin-source-locator';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/portfolio/' : '/',
+export default defineConfig(() => ({
+  base: '/portfolio/',
   plugins: [
     viteSourceLocator({
       prefix: 'mgx'
