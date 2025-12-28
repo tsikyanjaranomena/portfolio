@@ -17,7 +17,7 @@ const Projects = () => {
         "Refonte complète du système de paie vers une architecture microservices Java Spring Boot.",
       impact: 'Automatisation des reportings RH +70% plus rapides.',
       stack: ['Spring Boot', 'PostgreSQL', 'Vaadin', 'React', 'Chart.js'],
-      image: '/assets/java-spring-illustration.jpg',
+      image: `${import.meta.env.BASE_URL}assets/java-spring-illustration.jpg`,
     },
     {
       title: 'ADER — Monitoring réseau',
@@ -25,7 +25,7 @@ const Projects = () => {
         "Suivi temps réel des infrastructures électriques avec Django + dashboards React.",
       impact: 'Alertes critiques traitées en moins de 5 minutes.',
       stack: ['Django', 'Celery', 'React', 'PostgreSQL'],
-      image: '/assets/python-django-illustration.jpg',
+      image: `${import.meta.env.BASE_URL}assets/python-django-illustration.jpg`,
     },
     {
       title: 'Gallois Graphites — Core Salarial',
@@ -33,7 +33,7 @@ const Projects = () => {
         "Centralisation des calculs et automatisation des congés sur Oracle JDBC.",
       impact: 'Fiabilité des salaires sécurisée à 99,9%.',
       stack: ['Java Servlets', 'JSP', 'Oracle', 'JWT'],
-      image: '/assets/database-systems-illustration.jpg',
+      image: `${import.meta.env.BASE_URL}assets/database-systems-illustration.jpg`,
     },
     {
       title: 'Ops & CI/CD',
@@ -41,7 +41,7 @@ const Projects = () => {
         "Pipelines GitLab, intégration continue et déploiements Dockerisés.",
       impact: 'Cycles de livraison divisés par 3.',
       stack: ['GitLab', 'Docker', 'Tests', 'Monitoring'],
-      image: '/assets/hero-developer-workspace.jpg',
+      image: `${import.meta.env.BASE_URL}assets/hero-developer-workspace.jpg`,
     },
   ];
 

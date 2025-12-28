@@ -8,19 +8,19 @@ const Skills = () => {
       icon: <Code className="text-gold" size={24} />,
       title: 'Langages de Programmation',
       skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL'],
-      image: '/assets/java-spring-illustration.jpg'
+      image: `${import.meta.env.BASE_URL}assets/java-spring-illustration.jpg`
     },
     {
       icon: <Server className="text-gold" size={24} />,
       title: 'Frameworks & Technologies',
       skills: ['Spring Boot', 'Django', 'React.js', 'Vaadin', 'Thymeleaf', 'Chart.js'],
-      image: '/assets/python-django-illustration.jpg'
+      image: `${import.meta.env.BASE_URL}assets/python-django-illustration.jpg`
     },
     {
       icon: <Database className="text-gold" size={24} />,
       title: 'Bases de Données',
       skills: ['Oracle', 'PostgreSQL', 'MySQL', 'JDBC', 'ORM Django'],
-      image: '/assets/database-systems-illustration.jpg'
+      image: `${import.meta.env.BASE_URL}assets/database-systems-illustration.jpg`
     },
     {
       icon: <GitBranch className="text-gold" size={24} />,
