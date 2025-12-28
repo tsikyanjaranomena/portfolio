@@ -16,7 +16,7 @@ const About = () => {
             <div className="inline-block relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-[#d4af37] via-[#f6e7b2] to-[#9f7d1b] p-1 gold-glow-strong">
                 <img
-                  src="/assets/profil.jpeg"
+                  src={`${import.meta.env.BASE_URL}assets/profil.jpeg`}
                   alt="Portrait de Tsiky Anjara Nomena"
                   className="w-full h-full rounded-full object-cover"
                 />

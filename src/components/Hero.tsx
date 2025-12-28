@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <div className="mx-auto h-28 w-28 rounded-full bg-gradient-to-br from-[#d4af37] via-[#f6e7b2] to-[#9f7d1b] p-1 gold-glow-strong">
             <img
-              src="/assets/profil.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/profil.jpeg`}
               alt="Portrait de Tsiky Anjara Nomena"
               className="h-full w-full rounded-full object-cover"
             />
