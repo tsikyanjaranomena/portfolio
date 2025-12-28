@@ -35,9 +35,9 @@ const Hero = () => {
           </h2>
 
           <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Développeur passionné, j'excelle aussi bien côté client que serveur pour
-            concevoir des solutions web et applicatives performantes. Curieux et motivé,
-            j'aime relever des défis et donner vie à des projets ambitieux.
+            Développeur Java orienté produit, je conçois des applications web et métiers
+            fiables, performantes et faciles à maintenir. Curieux et rigoureux, j'aime
+            transformer des besoins complexes en solutions claires et élégantes.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">

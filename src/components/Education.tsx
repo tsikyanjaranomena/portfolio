@@ -10,7 +10,7 @@ const Education = () => {
       school: 'IT University',
       period: '2022',
       status: 'Diplômée',
-      description: "Formation spécialisée dans le développement web, l'intégration front-end et le design d'interfaces utilisateur.",
+      description: "Formation orientée produit et design, axée sur le développement web, l'intégration front-end et l'UX.",
       highlights: [
         'Développement web full-stack',
         "Design d'interfaces utilisateur",
@@ -24,7 +24,7 @@ const Education = () => {
       school: 'IT University',
       period: '2023-2024',
       status: 'Diplômée',
-      description: 'Formation avancée en développement logiciel, architecture des systèmes et gestion de projets informatiques.',
+      description: 'Approfondissement en développement logiciel, architecture des systèmes et gestion de projets informatiques.',
       highlights: [
         'Architecture des systèmes distribués',
         'Gestion de projets agiles',
@@ -38,7 +38,7 @@ const Education = () => {
       school: 'ESTIA',
       period: '2024-2025',
       status: 'En cours',
-      description: "Spécialisation avancée en data engineering, intelligence artificielle et systèmes analytiques à grande échelle.",
+      description: "Spécialisation en data engineering, intelligence artificielle et systèmes analytiques à grande échelle.",
       highlights: [
         'Data engineering & pipelines',
         'Machine learning appliqué',
@@ -77,7 +77,7 @@ const Education = () => {
             Formation & Éducation
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Un parcours académique solide complété par une formation continue
+            Un parcours académique structuré, renforcé par une formation continue
           </p>
         </div>
 
@@ -189,10 +189,10 @@ const Education = () => {
                   Développement Continu des Compétences
                 </h3>
                 <p className="text-white leading-relaxed max-w-3xl mx-auto">
-                  Mon parcours éducatif reflète un engagement constant vers l'excellence technique.
+                  Mon parcours éducatif reflète une progression constante vers l'excellence technique.
                   De la formation académique aux certifications spécialisées, chaque étape a contribué
-                  à forger une expertise solide en développement logiciel et une capacité d'adaptation
-                  aux technologies émergentes.
+                  à forger une expertise solide en développement logiciel et une réelle capacité
+                  d'adaptation aux technologies émergentes.
                 </p>
               </CardContent>
             </Card>

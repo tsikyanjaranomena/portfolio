@@ -50,7 +50,7 @@ const Skills = () => {
             Compétences Techniques
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Une expertise technique diversifiée pour concevoir des solutions complètes et performantes
+            Un socle technique solide pour livrer des produits fiables, évolutifs et agréables à utiliser
           </p>
         </div>
 

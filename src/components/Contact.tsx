@@ -111,7 +111,7 @@ const Contact = () => {
             Contactez-Moi
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Prêt à collaborer sur votre prochain projet ? N'hésitez pas à me contacter !
+            Ouvert aux collaborations et aux missions ambitieuses. Discutons de votre besoin et de la meilleure solution.
           </p>
         </div>
 
@@ -119,7 +119,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Informations de Contact
+                Coordonnées
               </h3>
               <div className="space-y-4">
                 {contactInfo.map((info, index) => (
@@ -168,12 +168,12 @@ const Contact = () => {
             <Card className="marble-card text-slate-900">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3 luxe-heading">
-                  Prêt à Collaborer ?
+                  Disponible pour collaborer ?
                 </h3>
                 <p className="text-white mb-4">
-                  Je suis toujours intéressé par de nouveaux défis et opportunités.
+                  Je suis disponible pour de nouveaux défis et opportunités.
                   Que ce soit pour un projet web, une application ou une consultation technique,
-                  n'hésitez pas à me contacter !
+                  parlons-en.
                 </p>
                 <Button
                   className="bg-[#d4af37] hover:bg-[#e8c45a] text-black"
@@ -191,7 +191,7 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-2xl text-white flex items-center gap-2 luxe-heading">
                   <Send className="text-[#d4af37]" size={24} />
-                  Envoyez-moi un Message
+                  Parlons de votre projet
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -264,7 +264,7 @@ const Contact = () => {
                     disabled={isSubmitting}
                   >
                     <Send className="mr-2" size={16} />
-                    {isSubmitting ? 'Envoi en cours...' : 'Envoyer le Message'}
+                    {isSubmitting ? 'Envoi en cours...' : 'Envoyer le message'}
                   </Button>
                 </form>
               </CardContent>

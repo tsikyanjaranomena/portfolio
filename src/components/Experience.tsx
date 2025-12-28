@@ -13,11 +13,11 @@ const Experience = () => {
       projects: [
         {
           name: 'Projet FR (Fond Routier Madagascar)',
-          description: 'Migration des systèmes de gestion de la paie vers une architecture centralisée basée sur Java Spring Boot.',
+          description: 'Refonte et migration du système de paie vers une architecture centralisée en Java Spring Boot pour fiabiliser les traitements et gagner en visibilité RH.',
           achievements: [
-            "Conception et développement d'APIs REST avec Java (Spring Boot) pour interconnecter les différents services internes",
-            'Implémentation de tableaux de bord analytiques avec Java (Spring Boot), Thymeleaf et Chart.js pour le suivi RH',
-            "Optimisation et refonte de l'expérience utilisateur à l'aide de frameworks Java modernes tels que Vaadin et React.js"
+            "Conception d'APIs REST robustes en Java (Spring Boot) pour interconnecter les services internes",
+            'Création de tableaux de bord analytiques avec Spring Boot, Thymeleaf et Chart.js pour le suivi RH',
+            "Optimisation de l'expérience utilisateur avec Vaadin et React.js pour des workflows RH plus fluides"
           ],
           technologies: ['Java (Spring Boot)', 'PostgreSQL', 'Vaadin', 'React.js', 'Chart.js', 'GitLab']
         }
@@ -32,10 +32,10 @@ const Experience = () => {
       projects: [
         {
           name: "Agence d'électrification rurale",
-          description: "Développement d'outils de gestion pour le suivi des infrastructures électriques avec Python Django.",
+          description: "Conception d'outils de gestion pour le suivi des infrastructures électriques avec Python Django.",
           achievements: [
-            "Création d'un système de monitoring en temps réel utilisant Django et un front-end React.js",
-            "Automatisation des workflows grâce à Django, Celery pour les traitements asynchrones, et l'ORM natif de Django"
+            "Mise en place d'un monitoring en temps réel avec Django et un front-end React.js",
+            "Automatisation des workflows avec Django, Celery (tâches asynchrones) et l'ORM Django"
           ],
           technologies: ['Python (Django, Django REST Framework)', 'PostgreSQL', 'React.js', 'Celery', 'GitLab']
         }
@@ -50,11 +50,11 @@ const Experience = () => {
       projects: [
         {
           name: 'Industrie de minage',
-          description: 'Migration des calculs de salaires vers une base de données centralisée Oracle via JDBC.',
+          description: 'Centralisation des calculs de salaires vers une base Oracle via JDBC pour sécuriser les traitements.',
           achievements: [
-            'Développement du module de gestion des congés en utilisant Java Servlets et JSP (architecture MVC)',
-            "Mise en place d'APIs REST sécurisées pour la gestion du personnel grâce à des Servlets, des filtres de sécurité et des tokens JWT",
-            'Rédaction et exécution de tests unitaires et fonctionnels avec JUnit et Mockito'
+            'Développement du module de gestion des congés avec Java Servlets et JSP (architecture MVC)',
+            "Mise en place d'APIs REST sécurisées via Servlets, filtres de sécurité et JWT",
+            'Rédaction de tests unitaires et fonctionnels avec JUnit et Mockito'
           ],
           technologies: ['Java (Servlets/JSP)', 'Oracle Database (JDBC)', 'GitLab', 'Docker']
         }
@@ -73,7 +73,7 @@ const Experience = () => {
             Expérience Professionnelle
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Un parcours riche en projets variés et en défis techniques stimulants
+            Des missions concrètes où la fiabilité, la clarté et l'impact produit guident chaque livraison
           </p>
         </div>
 

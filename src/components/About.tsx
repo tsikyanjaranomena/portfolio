@@ -30,17 +30,16 @@ const About = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Développeur Full-Stack Passionné
+                Développeur Full-Stack orienté impact
               </h3>
               <p className="text-slate-300 leading-relaxed mb-6">
-                Développeur Java passionné, j'excelle aussi bien côté client que serveur pour
-                concevoir des solutions web et applicatives performantes. Curieux et motivé,
-                j'aime relever des défis et donner vie à des projets ambitieux.
+                Spécialisé en Java et Python, je combine un backend solide et des interfaces soignées
+                pour livrer des expériences fiables, rapides et faciles à maintenir.
               </p>
               <p className="text-slate-300 leading-relaxed">
-                Ensemble, bâtissons des expériences innovantes ! Mon expertise s'étend des
-                architectures microservices aux interfaces utilisateur modernes, en passant
-                par l'optimisation des bases de données et l'intégration continue.
+                Mon approche : architecture claire, qualité de code, performance mesurée et
+                collaboration proactive. J'apprécie les projets où la valeur métier et
+                l'expérience utilisateur avancent main dans la main.
               </p>
             </div>
 
