@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -8,6 +9,28 @@ import Contact from '@/components/Contact';
 import ParallaxBackground from '@/components/ParallaxBackground';
 export default function Index() {
   const year = new Date().getFullYear();
+
+  useEffect(() => {
+    const sections = Array.from(document.querySelectorAll('[data-reveal-section]'));
+    if (sections.length === 0) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle('is-visible', entry.isIntersecting);
+        });
+      },
+      {
+        threshold: 0.3,
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div className="min-h-screen text-white relative overflow-hidden">

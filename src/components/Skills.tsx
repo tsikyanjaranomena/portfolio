@@ -43,7 +43,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 snap-section section-panel">
+    <section id="skills" data-reveal-section className="py-20 snap-section section-panel section-reveal">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4 luxe-title">

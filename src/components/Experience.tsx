@@ -65,7 +65,8 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-20 snap-section section-panel relative"
+      data-reveal-section
+      className="py-20 snap-section section-panel section-reveal relative"
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">

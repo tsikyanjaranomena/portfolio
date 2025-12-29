@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 snap-section section-panel relative">
+    <section id="about" data-reveal-section className="py-20 snap-section section-panel section-reveal relative">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4 luxe-title">

@@ -11,7 +11,8 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen snap-section flex items-center justify-center relative overflow-hidden pt-28 bg-transparent"
+      data-reveal-section
+      className="min-h-screen snap-section section-reveal flex items-center justify-center relative overflow-hidden pt-28 bg-transparent"
     >
       <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
